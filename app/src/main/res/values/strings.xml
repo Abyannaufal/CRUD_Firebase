@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Final PPB 10791</string>
+
+    <string-array name="str_Classes">
+        <item>Standard</item>
+        <item>Superrior</item>
+        <item>Deluxe</item>
+    </string-array>
+
+    <string-array name="str_Facility">
+        <item>Wifi</item>
+        <item>Bathroom</item>
+        <item>Television</item>
+    </string-array>
+</resources>

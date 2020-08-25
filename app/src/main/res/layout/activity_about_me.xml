@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".aboutMe"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="ABOUT ME"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:text="A11.2017.10791"
+        android:gravity="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="15dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="@color/colorPrimary"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="70dp"/>
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_person"
+                android:background="@color/colorSky"/>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="7dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Mohamad Abyannaufal"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="NIM"
+                        android:textSize="20dp" />
+
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="7dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Matkul"
+                        android:textSize="20dp" />
+
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="7dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Kelompok"
+                        android:textSize="20dp" />
+
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="7dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Motto"
+                        android:textSize="20dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=": "
+                        android:textSize="20dp" />
+
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="7dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=": "
+                        android:textSize="20dp" />
+
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="7dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=": "
+                        android:textSize="20dp" />
+
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="7dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=": "
+                        android:textSize="20dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/vw_Class"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="A11.2017.10791"
+                        android:textSize="20dp" />
+
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="7dp" />
+
+                    <TextView
+                        android:id="@+id/vw_Facility"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="PPB"
+                        android:textSize="20dp" />
+
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="7dp" />
+
+                    <TextView
+                        android:id="@+id/vw_Bed"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="A11.4502"
+                        android:textSize="20dp" />
+
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="7dp" />
+
+                    <TextView
+                        android:id="@+id/vw_Note"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Maju terus tapi gak maju-maju."
+                        android:textSize="20dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

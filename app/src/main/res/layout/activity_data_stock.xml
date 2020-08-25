@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dataStock"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="STOCK ROOM INPUT"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="25dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:text="A11.2017.10791"
+        android:gravity="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="15dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="@color/colorPrimary"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Choose stock room input"
+            android:textSize="25dp"/>
+
+        <Spinner
+            android:id="@+id/st_Room"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:entries="@array/str_Classes"
+            android:scrollbarSize="33dp"
+            android:spinnerMode="dropdown"
+            android:outlineSpotShadowColor="@color/colorAccent"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="7dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How much you need Room Quota(s)?"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/st_Quota"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Fill this cyka!"/>
+
+        <Button
+            android:id="@+id/st_Add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Add Quota"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
